@@ -14,7 +14,7 @@ int factorial(int n){
 }
 
 double itemCreator(double x, int n){
-    if (n==1)
+    if (n == 1)
     {
         return 1;
     }
@@ -56,7 +56,7 @@ double inductionFormula(double x){
 }
 
 double item(double x,int n){
-    return sign(n) * itemCreator(x, n) / factorial(n);
+    return sign(n) * itemCreator(x, n) / factorial((n - 1) * 2);
 }
 
 double itemSum(double x,int itemNumber){
