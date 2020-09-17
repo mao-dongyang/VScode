@@ -13,6 +13,3 @@ int main() {
     }
     
 }
-
-// 打印五阶 "*" 阵
-// myFirstBranchTest
