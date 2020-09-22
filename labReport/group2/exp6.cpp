@@ -34,5 +34,9 @@ int main()
     {
         multipleNumber(arr, i);
     }
+    for (int i = 0; i < arrLength; i++)
+    {
+        cout << arr[i] << endl;
+    }
     return 0;
 }
