@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/Desktop/complexNumber/t1.h
+iostream
+-
+
+C:/Users/Administrator/Desktop/complexNumber/t1_main.cpp
+t1.h
+C:/Users/Administrator/Desktop/complexNumber/t1.h
+
