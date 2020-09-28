@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Administrator/Desktop/complexNumber
+# Install script for directory: C:/VScode-c/Git/VScode/ADT/labReport/complexNumber
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Administrator/Desktop/complexNumber/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/VScode-c/Git/VScode/ADT/labReport/complexNumber/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

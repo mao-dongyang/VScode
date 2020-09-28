@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Administrator/Desktop/complexNumber/t1.cpp" "C:/Users/Administrator/Desktop/complexNumber/cmake-build-debug/CMakeFiles/complexNumber.dir/t1.cpp.obj"
-  "C:/Users/Administrator/Desktop/complexNumber/t1_main.cpp" "C:/Users/Administrator/Desktop/complexNumber/cmake-build-debug/CMakeFiles/complexNumber.dir/t1_main.cpp.obj"
+  "C:/VScode-c/Git/VScode/ADT/labReport/complexNumber/t1.cpp" "C:/VScode-c/Git/VScode/ADT/labReport/complexNumber/cmake-build-debug/CMakeFiles/complexNumber.dir/t1.cpp.obj"
+  "C:/VScode-c/Git/VScode/ADT/labReport/complexNumber/t1_main.cpp" "C:/VScode-c/Git/VScode/ADT/labReport/complexNumber/cmake-build-debug/CMakeFiles/complexNumber.dir/t1_main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\complexNumber
+CMAKE_SOURCE_DIR = C:\VScode-c\Git\VScode\ADT\labReport\complexNumber
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\complexNumber\cmake-build-debug
+CMAKE_BINARY_DIR = C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/complexNumber.dir/depend.make
@@ -79,30 +79,30 @@ include CMakeFiles/complexNumber.dir/flags.make
 CMakeFiles/complexNumber.dir/t1.cpp.obj: CMakeFiles/complexNumber.dir/flags.make
 CMakeFiles/complexNumber.dir/t1.cpp.obj: CMakeFiles/complexNumber.dir/includes_CXX.rsp
 CMakeFiles/complexNumber.dir/t1.cpp.obj: ../t1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\complexNumber\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/complexNumber.dir/t1.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\complexNumber.dir\t1.cpp.obj -c C:\Users\Administrator\Desktop\complexNumber\t1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/complexNumber.dir/t1.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\complexNumber.dir\t1.cpp.obj -c C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\t1.cpp
 
 CMakeFiles/complexNumber.dir/t1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/complexNumber.dir/t1.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\complexNumber\t1.cpp > CMakeFiles\complexNumber.dir\t1.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\t1.cpp > CMakeFiles\complexNumber.dir\t1.cpp.i
 
 CMakeFiles/complexNumber.dir/t1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/complexNumber.dir/t1.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\complexNumber\t1.cpp -o CMakeFiles\complexNumber.dir\t1.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\t1.cpp -o CMakeFiles\complexNumber.dir\t1.cpp.s
 
 CMakeFiles/complexNumber.dir/t1_main.cpp.obj: CMakeFiles/complexNumber.dir/flags.make
 CMakeFiles/complexNumber.dir/t1_main.cpp.obj: CMakeFiles/complexNumber.dir/includes_CXX.rsp
 CMakeFiles/complexNumber.dir/t1_main.cpp.obj: ../t1_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\complexNumber\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/complexNumber.dir/t1_main.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\complexNumber.dir\t1_main.cpp.obj -c C:\Users\Administrator\Desktop\complexNumber\t1_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/complexNumber.dir/t1_main.cpp.obj"
+	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\complexNumber.dir\t1_main.cpp.obj -c C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\t1_main.cpp
 
 CMakeFiles/complexNumber.dir/t1_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/complexNumber.dir/t1_main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\complexNumber\t1_main.cpp > CMakeFiles\complexNumber.dir\t1_main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\t1_main.cpp > CMakeFiles\complexNumber.dir\t1_main.cpp.i
 
 CMakeFiles/complexNumber.dir/t1_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/complexNumber.dir/t1_main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\complexNumber\t1_main.cpp -o CMakeFiles\complexNumber.dir\t1_main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\t1_main.cpp -o CMakeFiles\complexNumber.dir\t1_main.cpp.s
 
 # Object files for target complexNumber
 complexNumber_OBJECTS = \
@@ -118,7 +118,7 @@ complexNumber.exe: CMakeFiles/complexNumber.dir/build.make
 complexNumber.exe: CMakeFiles/complexNumber.dir/linklibs.rsp
 complexNumber.exe: CMakeFiles/complexNumber.dir/objects1.rsp
 complexNumber.exe: CMakeFiles/complexNumber.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Administrator\Desktop\complexNumber\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable complexNumber.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable complexNumber.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\complexNumber.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -131,6 +131,6 @@ CMakeFiles/complexNumber.dir/clean:
 .PHONY : CMakeFiles/complexNumber.dir/clean
 
 CMakeFiles/complexNumber.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Administrator\Desktop\complexNumber C:\Users\Administrator\Desktop\complexNumber C:\Users\Administrator\Desktop\complexNumber\cmake-build-debug C:\Users\Administrator\Desktop\complexNumber\cmake-build-debug C:\Users\Administrator\Desktop\complexNumber\cmake-build-debug\CMakeFiles\complexNumber.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\VScode-c\Git\VScode\ADT\labReport\complexNumber C:\VScode-c\Git\VScode\ADT\labReport\complexNumber C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\cmake-build-debug C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\cmake-build-debug C:\VScode-c\Git\VScode\ADT\labReport\complexNumber\cmake-build-debug\CMakeFiles\complexNumber.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/complexNumber.dir/depend
 
