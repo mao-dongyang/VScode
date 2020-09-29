@@ -9,7 +9,7 @@ typedef struct student {
 
 
 int main(){
-    student s1 = {201910311127, "Philipe", "Boy"};
+    student s1 = {201910311127, "毛冬阳", "男"};
     cout << s1.name << endl;
     cout << s1.num << endl;
     cout << s1.sex << endl;
