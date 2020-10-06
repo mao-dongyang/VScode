@@ -6,3 +6,4 @@ print(res1)
 
 res2 = [n*2 for n in data]
 print(res2)
+
