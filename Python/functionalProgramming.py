@@ -1,5 +1,8 @@
 import random as rd
 import time as tm
+from multiprocessing import Pool as pl
+
+
 data = [(rd.randint(1, 1000), rd.randint(1, 1000)) for _ in range(10000000)]
 
 
@@ -20,7 +23,8 @@ def simplify(pair):
 
 start = tm.clock()
 
-res = map(simplify, data)
+p = pl(4)
+res = p.map(simplify, data)
 res = list(res)
 
 finish = tm.clock()
