@@ -1,4 +1,6 @@
-data = [(1, 5), (3, 6), (2, 4), (6, 18)]
+import random as rd
+import time as tm
+data = [(rd.randint(1, 1000), rd.randint(1, 1000)) for _ in range(10000000)]
 
 
 def gcd(a, b):
@@ -16,6 +18,12 @@ def simplify(pair):
     return (int(n1/m), int(n2/m))
 
 
+start = tm.clock()
+
 res = map(simplify, data)
 res = list(res)
-print(res)
+
+finish = tm.clock()
+
+print(res[0:10])
+print("Time used : ", finish-start)
