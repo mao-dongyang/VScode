@@ -67,7 +67,7 @@ int main()
     cout << "Two sqlist below" << endl;
     for (int i = 0; i < 10; i++)
     {
-        cout << list1.elem[i] << "\t" << list2.elem[i];
+        cout << list1.elem[i] << "\t" << list2.elem[i] << endl;
     }
     cout << "merged into one sqlist" << endl;
     for (int i = 0; i < 20; i++)
