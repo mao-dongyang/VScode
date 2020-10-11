@@ -58,22 +58,32 @@ void mergeList_Sq(sqList la, sqList lb, sqList &lc)
     }
 }
 
+void displaySqlist(sqList l)
+{
+    for (int i = 0; i < l.length; i++)
+    {
+        cout << "\t" << l.elem[i] << "\t" << endl;
+    }
+}
+
+void displayTwoSqlist(sqList l1, sqList l2)
+{
+    for (int i = 0; i < (l1.length > l2.length ? l1.length : l2.length); i++)
+    {
+        cout << l1.elem[i] << "\t\t" << l2.elem[i] << endl;
+    }
+}
+
 int main()
 {
     sqList list1, list2, list3;
-    fillIn(list1, 10, odd);
-    fillIn(list2, 10, even);
+    fillIn(list1, 6, odd);
+    fillIn(list2, 6, even);
     mergeList_Sq(list1, list2, list3);
     cout << "Two sqlist below" << endl;
-    for (int i = 0; i < 10; i++)
-    {
-        cout << list1.elem[i] << "\t" << list2.elem[i] << endl;
-    }
+    displayTwoSqlist(list1, list2);
     cout << "merged into one sqlist" << endl;
-    for (int i = 0; i < 20; i++)
-    {
-        cout << list3.elem[i] << endl;
-    }
+    displaySqlist(list3);
     cout << "\nThe length is ";
     cout << list3.length << endl;
     cout << "\nThe listsize is ";
