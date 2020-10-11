@@ -64,11 +64,19 @@ int main()
     fillIn(list1, 10, odd);
     fillIn(list2, 10, even);
     mergeList_Sq(list1, list2, list3);
+    cout << "Two sqlist below" << endl;
+    for (int i = 0; i < 10; i++)
+    {
+        cout << list1.elem[i] << "\t" << list2.elem[i];
+    }
+    cout << "merged into one sqlist" << endl;
     for (int i = 0; i < 20; i++)
     {
         cout << list3.elem[i] << endl;
-        cout << list3.length << endl;
-        cout << list3.listsize << endl;
     }
+    cout << "\nThe length is ";
+    cout << list3.length << endl;
+    cout << "\nThe listsize is ";
+    cout << list3.listsize << endl;
     return 0;
 }
