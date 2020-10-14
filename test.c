@@ -3,8 +3,9 @@
 int main()
 {
     float money, year, rate, interest;
-    scanf("%f,%f,%f", &money, &year, &rate);
+    printf("please input:");
+    scanf("%f%f%f", &money, &year, &rate);
     interest = money * pow(1 + rate, year) - money;
-    printf("interest = %.2f", interest);
+    printf("interest = %.2f\n", interest);
     return 0;
 }
