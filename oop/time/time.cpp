@@ -2,7 +2,8 @@
 
 int main()
 {
-    time T;
+    Time T;
+    T.cintime();
     T.couttime();
     return 0;
 }

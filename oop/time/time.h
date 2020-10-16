@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-class time
+class Time
 {
 private:
     int hour;
@@ -12,27 +12,28 @@ private:
 public:
     void cintime();
     void couttime();
-    time(int a = 0, int b = 0, int c = 0);
-    ~time();
+    Time(int a = 0, int b = 0, int c = 0);
+    ~Time();
 };
 
-time::time(int a, int b, int c)
+Time::Time(int a, int b, int c)
 {
     hour = a;
     minute = b;
     second = c;
 }
 
-void time::cintime()
+void Time::cintime()
 {
+    cout << "Please enter hour,minute,second" << endl;
     cin >> hour >> minute >> second;
 }
 
-void time::couttime()
+void Time::couttime()
 {
     cout << hour << ":" << minute << ":" << second << endl;
 }
 
-time::~time()
+Time::~Time()
 {
 }
