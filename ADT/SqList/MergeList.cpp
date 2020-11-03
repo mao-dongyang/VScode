@@ -74,6 +74,23 @@ void displayTwoSqlist(sqList l1, sqList l2)
     }
 }
 
+int deleteMin(sqList list)
+{
+    int min = list.elem[0];
+    int minPlace = 0;
+    for (int i = 1; i < list.length; i++)
+    {
+        if (list.elem[i] < min)
+        {
+            min = list.elem[i];
+            minPlace = i;
+        }
+    }
+    list.elem[minPlace] = list.elem[list.length - 1];
+    list.length--;
+    return min;
+}
+
 int main()
 {
     sqList list1, list2, list3;
