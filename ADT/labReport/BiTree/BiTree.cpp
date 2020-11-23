@@ -129,7 +129,7 @@ void CopyBiTree(BiTreeHead &H, BiTreeHead &h)
     h.ID = H.ID;
     CreateBiTreeByHead(h);
     VisualBiTree(h.root);
-    cout << Depth(h.root) << endl;
+    cout << "Its depth is " << Depth(h.root) << endl;
     cout << "This is copy" << endl;
     cout << "\n\n\n"
          << endl;
@@ -143,7 +143,7 @@ int main()
     CreateBiTreeByHead(H);
     CopyBiTree(H, h);
     VisualBiTree(H.root);
-    cout << Depth(H.root) << endl;
+    cout << "Its depth is " << Depth(H.root) << endl;
     cout << "This is original" << endl;
     return 0;
 }
