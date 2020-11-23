@@ -1,3 +1,0 @@
-C:/VScode-c/Git/VScode/ADT/labReport/complexNumber/cmake-build-debug/CMakeFiles/complexNumber.dir
-C:/VScode-c/Git/VScode/ADT/labReport/complexNumber/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/VScode-c/Git/VScode/ADT/labReport/complexNumber/cmake-build-debug/CMakeFiles/rebuild_cache.dir
