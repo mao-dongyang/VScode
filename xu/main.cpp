@@ -1,20 +1,35 @@
 #include <iostream>
 using namespace std;
 
+double creator(double n)
+{
+    if (n == 1)
+    {
+        return 1;
+    }
+    else
+    {
+        return creator(n - 1) + 1 / n;
+    }
+}
+
 int main()
 {
-    for (int i = 1; i < 10; i++)
+    double n = 1;
+    while (creator(n) < 8)
     {
-        for (int j = 0; i < 10; i++)
-        {
-            for (int k = 0; k < 10; k++)
-            {
-                if (1 * 100 + j * 10 + k == i * i * i + j * j * j + k * k * k)
-                {
-                    cout << i << j << k << endl;
-                }
-            }
-        }
+        n++;
     }
+    if (creator(n) - 8 < 8 - creator(n - 1))
+    {
+        cout << n << endl;
+    }
+    else
+    {
+        cout << n - 1 << endl;
+    }
+    cout << n << "=>" << creator(n) << "\n"
+         << n - 1 << "=>"
+         << creator(n - 1) << endl;
     return 0;
 }

@@ -139,7 +139,7 @@ int main()
 {
     BiTreeHead H;
     BiTreeHead h;
-    H.ID = "AB#C##D##";
+    H.ID = "ABC##D##E#FGH####";
     CreateBiTreeByHead(H);
     CopyBiTree(H, h);
     VisualBiTree(H.root);
