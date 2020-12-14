@@ -1,5 +1,8 @@
 #include <iostream>
+#include <queue>
 using namespace std;
+
+queue<int> wait4BFS;
 
 typedef struct Graph
 {
@@ -20,12 +23,12 @@ void enterMatrix(Graph &g, int m[6][6])
 
 void visit(int v)
 {
-    cout << v << endl;
+    cout << "V" << v + 1 << '\t';
 }
 
 int visited[6] = {0, 0, 0, 0, 0, 0};
 
-void DSF(Graph const &g, int v = 0)
+void DFS(Graph const &g, int v = 0)
 {
     visit(v);
     visited[v] = 1;
@@ -33,13 +36,35 @@ void DSF(Graph const &g, int v = 0)
     {
         if (g.matrix[v][i] && !visited[i])
         {
-            DSF(g, i);
+            DFS(g, i);
         }
     }
 }
 
-void BSF(Graph const &g)
+void BFS(Graph const &g)
 {
+    for (int j = 0; j < g.size; j++)
+    {
+        visited[j] = 0;
+    }
+    int v = 0;
+    do
+    {
+        if (!visited[v])
+        {
+            visit(v);
+            visited[v] = 1;
+            for (int i = 0; i < g.size; i++)
+            {
+                if (!visited[i] && g.matrix[v][i])
+                {
+                    wait4BFS.push(i);
+                }
+            }
+        }
+        v = wait4BFS.front();
+        wait4BFS.pop();
+    } while (!wait4BFS.empty());
 }
 
 int main()
@@ -48,6 +73,11 @@ int main()
     Graph g;
     g.size = 6;
     enterMatrix(g, m);
-    DSF(g);
+    cout << "The DFS is ";
+    DFS(g);
+    cout << endl;
+    cout << "The BFS is ";
+    BFS(g);
+    cout << endl;
     return 0;
 }
