@@ -3,13 +3,18 @@
 #include <stdlib.h>
 
 void *myfunc(void *args) {
-  printf("Hello World\n");
+  for (int i = 0; i < 20; i++) {
+    printf("i = %d => %s\n", i, (char *)args);
+  }
   return NULL;
 }
 
 int main(void) {
-  pthread_t th;
-  pthread_create(&th, NULL, myfunc, NULL);
-  pthread_join(th, NULL);
+  pthread_t th0;
+  pthread_t th1;
+  pthread_create(&th0, NULL, myfunc, "th0");
+  pthread_create(&th1, NULL, myfunc, "th1");
+  pthread_join(th0, NULL);
+  pthread_join(th1, NULL);
   return 0;
 }
