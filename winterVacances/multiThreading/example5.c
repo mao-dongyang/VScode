@@ -11,12 +11,12 @@ typedef struct MY_ARGS {
 } MY_ARGS, *MY_ARGSptr;
 
 int *arr;
-int result[2];
+int result[101];
 
 void *myfunc(void *args) {
+
   int i;
   MY_ARGSptr my_args = (MY_ARGSptr)args;
-
   int first = my_args->first;
   int last = my_args->last;
   int id = my_args->id;
@@ -35,14 +35,14 @@ int main(void) {
   }
 
   result[0] = 0;
-  result[1] = 0;
+  result[100] = 0;
 
   pthread_t th1;
   pthread_t th2;
 
   int mid = MAX_SIZE / 2;
   MY_ARGS args1 = {0, mid, 0};
-  MY_ARGS args2 = {mid, MAX_SIZE, 1};
+  MY_ARGS args2 = {mid, MAX_SIZE, 100};
 
   pthread_create(&th1, NULL, myfunc, &args1);
   pthread_create(&th2, NULL, myfunc, &args2);
@@ -51,9 +51,9 @@ int main(void) {
   pthread_join(th2, NULL);
 
   printf("s1 = %d\n", result[0]);
-  printf("s2 = %d\n", result[1]);
+  printf("s2 = %d\n", result[100]);
 
-  printf("s1 + s2 = %d\n", result[0] + result[1]);
+  printf("s1 + s2 = %d\n", result[0] + result[100]);
 
   return 0;
 }
