@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
-{
-    cout << "This is a C++ program!" << endl;
-    return 0;
+int main() {
+  for (int i = 0; i <= 10; i++) {
+    cout << "liu shenglin" << endl;
+  }
+  return 0;
 }

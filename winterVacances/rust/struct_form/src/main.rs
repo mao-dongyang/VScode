@@ -7,6 +7,7 @@ struct User {
 
 struct Color(u8, u8, u8);
 
+#[derive(Debug)]
 struct Rectangle {
     width: u32,
     length: u32,
@@ -30,6 +31,8 @@ fn main() {
     };
 
     println!("{}", area(&rect));
+
+    println!("{:#?}", rect);
 }
 
 // fn area(width: u32, length: u32) -> u32 {
@@ -41,5 +44,6 @@ fn main() {
 // }
 
 fn area(rect: &Rectangle) -> u32 {
+    rect.width * rect.length;
     rect.width * rect.length
 }

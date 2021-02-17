@@ -94,6 +94,7 @@ int deleteMin(sqList list)
 int main()
 {
     sqList list1, list2, list3;
+    list1.
     fillIn(list1, 6, odd);
     fillIn(list2, 6, even);
     mergeList_Sq(list1, list2, list3);

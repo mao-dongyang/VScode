@@ -15,6 +15,7 @@ int main(){
     cin >> number;
     if(number >= 1000 && number <=9999){
         reverse(number);
+	cout << endl;
     }
     return 0;
 }

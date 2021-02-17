@@ -12,13 +12,14 @@ void maxInThreeNumber(float a,float b,float c,float &Result){
         if(b > c){
             Result = b;
         }else{
-            Result = c;
+	    Result = c;
         }
     }
 }
 
 int main(){
     float a, b, c, Result;
+    float abc;
     cout << "Please enter three numbers" << endl;
     cin >> a >> b >> c;
     maxInThreeNumber(a, b, c, Result);

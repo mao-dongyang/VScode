@@ -29,6 +29,9 @@ public:
     writeLine("(L)ist");
     writeLine("(M)anage");
     writeLine("(Q)uit");
+    write("asjdhjskdh");
+    write("dshfkjfhksajhdfkjas");
+    write("sdhfjkhsadkfha");
   }
 
   static void printBook(const Book &book) {

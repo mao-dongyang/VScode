@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 //#define Radius 1.5
 //#define Height 3
 #define PI 3.14

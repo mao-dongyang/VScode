@@ -3,6 +3,10 @@ import time as tm
 from multiprocessing import Pool as pl
 
 
+
+
+
+
 data = [(rd.randint(1, 1000), rd.randint(1, 1000)) for _ in range(10000000)]
 
 
